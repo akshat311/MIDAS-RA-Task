@@ -1,3 +1,9 @@
+# Steps to Reproduce the code
+
+Download the 300 dimension GloVe embeddings using [this link]("https://nlp.stanford.edu/projects/glove/").
+Save it in folder containing the dataset and model.ipynb file. After this, run model.ipynb notebook to recreate the steps.
+
+
 # Summary
 For the given task, the dataset was first preprocessed for the relevant columns. After this, it was tokenized and an embedding layer was created. A CNN model was used for predicting the categories for the product description. The architecture of the CNN model was created after lot of experimentation specific for this dataset. An F1 score of <b><i>0.97</i></b> was obtained on the test set. The detailed steps and approach is given below. Everything mentioned here has also been shown in the Model.ipynb  notebook present in this repository.
 
@@ -45,4 +51,11 @@ Model was trained for 15 epochs having a batch size of 16.
 For analyzing the results, since class imbalance is very high, weighted F1 score was used.</br>
 On the test set, an F1 score of <i><b>0.97</b></i> was obtained.</br>
 The classification report and graphs for losses and accuracy during training are also present in the python notebook.
+
+# Further Ahead
+
+For increasing the accuracy of the model, further hyperparamter tuning can be done. </br>
+Also, information can also be extracted from the other columns and passed onto the model. Since a very good accuracy was obtained and due to time constraint, for now only the product description was used for prediction.</br> 
+HD embeddings, introduced by Kanerva can also be used instead of pretrained GloVe embeddings, using which can hopefull increase the F1 score to 0.99</br>
+HD embeddings require a lot of computing power to run which couldn't be run on my local machine for such a big dataset. Otherwise, I would have experimented with it too.
 
