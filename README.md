@@ -2,7 +2,7 @@
 
 # Steps to Reproduce the code
 
-Download the 300 dimension GloVe embeddings using [this link]("https://nlp.stanford.edu/projects/glove/").</br>
+Download the 300 dimension GloVe embeddings using [this link]("https://nlp.stanford.edu/projects/glove/"). </br>
 Save it in folder containing the dataset and model.ipynb file. It has not been included in this repository due to its large size. </br>
 After this, run model.ipynb notebook to recreate the process.
 
