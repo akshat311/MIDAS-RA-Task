@@ -1,7 +1,8 @@
 # Steps to Reproduce the code
 
-Download the 300 dimension GloVe embeddings using [this link]("https://nlp.stanford.edu/projects/glove/").
-Save it in folder containing the dataset and model.ipynb file. After this, run model.ipynb notebook to recreate the steps.
+Download the 300 dimension GloVe embeddings using [this link]("https://nlp.stanford.edu/projects/glove/").</br>
+Save it in folder containing the dataset and model.ipynb file. It has not been included in this repository due to its large size. </br>
+After this, run model.ipynb notebook to recreate the process.
 
 
 # Summary
@@ -45,7 +46,7 @@ Layer 6 :   Softmax Layer (28)</br>
 </br>
 Max Pooling was used between the Conv1D layers and BatchNormalizationwas used between all layers. Dropout was also use after the Dense Layer. Loss was set to "categorical_crossentropy", and "adam" optimizer was used. </br>
 </br>
-Model was trained for 15 epochs having a batch size of 16.
+Model was trained for 16 epochs having a batch size of 64.
 
 # Results
 For analyzing the results, since class imbalance is very high, weighted F1 score was used.</br>
