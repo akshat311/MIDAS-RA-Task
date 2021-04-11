@@ -6,7 +6,7 @@ After this, run model.ipynb notebook to recreate the process.
 
 
 # Summary
-For the given task, the dataset was first preprocessed for the relevant columns. After this, it was tokenized and an embedding layer was created. A CNN model was used for predicting the categories for the product description. The architecture of the CNN model was created after lot of experimentation specific for this dataset. An F1 score of <b><i>0.97</i></b> was obtained on the test set. The detailed steps and approach is given below. Everything mentioned here has also been shown in the Model.ipynb  notebook present in this repository.
+For the given task, the dataset was first preprocessed for the relevant columns. After this, it was tokenized and an embedding layer was created. A CNN model was used for predicting the categories for the product description. The architecture of the CNN model was created after lot of experimentation specific for this dataset. An F1 score of <b><i>0.96</i></b> was obtained on the test set. The detailed steps and approach is given below. Everything mentioned here has also been shown in the Model.ipynb  notebook present in this repository.
 
 # Preprocessing
 
@@ -50,7 +50,7 @@ Model was trained for 16 epochs having a batch size of 64.
 
 # Results
 For analyzing the results, since class imbalance is very high, weighted F1 score was used.</br>
-On the test set, an F1 score of <i><b>0.97</b></i> was obtained.</br>
+On the test set, an F1 score of <i><b>0.96</b></i> was obtained.</br>
 The classification report and graphs for losses and accuracy during training are also present in the python notebook.
 
 # Further Ahead
