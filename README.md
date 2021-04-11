@@ -22,7 +22,7 @@ In the dictionary we can see that many categories have very less data points. No
 
 After preprocessing, dataset was split into train and test set using a 80:20 ratio.</br>
 After this, BERT pretrained tokenizer ("bert-base-cased") was used to tokenized the product description.</br>
-After tokenizing, a list of all unique tokens was created. From this list, a mapping dictoinary was created, having each unique token as key, and its index as its value. In total 13017 unique tokens were found to be present.</br>
+After tokenizing, a list of all unique tokens was created. From this list, a mapping dictionary was created, having each unique token as key, and its index as its value. In total 13017 unique tokens were found to be present.</br>
 
 # Embedding Layer
 For creating an embedding layer, GloVe pretrain embeddings were used("glove.6B.300d.txt"). A dictionary called "embeddings_index" was created for GloVe embeddigs.</br>
